@@ -20,7 +20,7 @@ require('@uirouter/angularjs/release/stateEvents');
 import { UI_ROUTER_REACT_HYBRID } from '@uirouter/react-hybrid';
 
 // use require instead of import to ensure insertion order is preserved
-require('Select2/select2.css');
+require('select2/dist/css/select2.css');
 require('select2-bootstrap-css/select2-bootstrap.css');
 import 'source-sans-pro/source-sans-pro.css';
 import { RECENT_HISTORY_SERVICE } from 'core/history';
